@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+     "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "type": "module",
   "keywords": [],
